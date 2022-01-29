@@ -1,0 +1,25 @@
+image_width: 720
+image_height: 480
+camera_name: head_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [500.008567, 0, 358.235817, 0, 448.263812, 232.472704, 0, 0, 1]
+
+distortion_model: plumb_bob # <--- and yep, this f* model is just the order 5 Brown-Conrady distortion model 
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.412799, 0.140937, 0.002734, 0.000787, 0] 
+
+
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1,0,0,0,1,0,0,0,1]
+
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [367.381287, 0, 358.923677, 0, 0, 386.326233, 231.611788, 0, 0, 0, 1, 0]
+

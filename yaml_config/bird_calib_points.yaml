@@ -1,0 +1,13 @@
+
+calibration_units: millimeters 
+
+
+fish_undistorted_points:
+  rows: 4
+  cols: 2
+  data: [233, 502, 165, 529, 267, 281, 383, 406]  #FORMAT: x1 x2 x3 x4; y1 y2 y3 y4
+
+virtual_points:
+  rows: 4
+  cols: 2
+  data: [159, 900, 100, 850, 50, 100, 400, 450]   #FORMAT: x1 x2 x3 x4; y1 y2 y3 y4  
