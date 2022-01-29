@@ -6,7 +6,7 @@ camera_matrix:
   cols: 3
   data: [500.008567, 0, 358.235817, 0, 448.263812, 232.472704, 0, 0, 1]
 
-distortion_model: plumb_bob # <--- and yep, this f* model is just the order 5 Brown-Conrady distortion model 
+distortion_model: plumb_bob 
 distortion_coefficients:
   rows: 1
   cols: 5
