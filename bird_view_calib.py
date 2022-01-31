@@ -9,6 +9,10 @@ import yaml
 #AUTHOR: JHONATHAN CASTAÑEDA - UNIVERSIDAD AUTÒNOMA DE OCCIDENTE - 01/01/2022 
 #jhonathan.castaneda@uao.edu.co
 
+#SCRIPT BASED ON: 
+# Z. Yang, Y. Zhao, X. Hu, Y. Yin, L. Zhou and D. Tao, "A flexible vehicle surround view camera system by central-around coordinate mapping 
+# model," Multimedia tools and applications. 2019.
+
 #FIRST TEST, REVISED AND WORKING == 01/01/2022
 
 #IMPORTANT!! THIS CODE IS CURRENTLY WORKING TO GENERATE AN IDEAL VIRTUAL IMAGE OF 1000 x 1000 PIXELS -- THIS CODE WILL BE UPDATED THEN.
